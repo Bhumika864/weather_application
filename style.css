@@ -1,0 +1,89 @@
+body{
+  background-color: black;
+  margin: 0ch;
+  padding: 0ch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.container{
+  margin-top: 0.4cm;
+  border: 2px solid black;
+  display: grid;
+  border-radius: 2ch;
+  background-color: rgb(69, 157, 235);
+  background: linear-gradient(45deg,rgb(240, 240, 245),rgb(38, 173, 197),rgb(104, 189, 234),rgb(221, 235, 240));
+  width: 450px;
+  height: 550px;
+  text-align: center;
+}
+
+#input-txt{
+  border-radius: 2ch;
+  height: 30px;
+  width: 230px;
+  margin: 0cm;
+  padding: 0%;
+
+  margin-left: 0cm;
+  border-color: aliceblue;
+  border-style: hidden;
+  padding-left: 2ch;
+  
+}
+#search-img{
+  margin-top: 0cm;
+  margin-left: 0cm;
+  background-image: linear-gradient(rgb(255,255,255),rgb(255, 255, 255));
+  border-radius: 50%;
+  height:15px;
+  width: 15px;
+  padding: 2%;
+  margin-top: 0.43ch;
+}
+#temp-rec{
+  font-size: 9ch;
+}
+
+#city{
+  font-size: 5ch;
+}
+
+.weather-cond{
+  display: flex;
+  margin: 12vh;
+}
+
+.humidity{
+  margin-right: 21%;
+  display: flex;
+}
+
+#percentage ,#humidity-txt{
+  margin-left: 35%;
+}
+
+#speed-measure,#Wind-speed-txt{
+  margin-left: 25%;
+
+}
+
+#percentage, #speed-measure{
+  font-size: 0.7cm;
+}
+
+#humidity-img, #wind-img{
+  height: 1cm;
+}
+
+.Wind-Speed{
+  display: flex;
+}
+
+
+
+
+
+
